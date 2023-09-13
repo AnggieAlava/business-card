@@ -1,0 +1,89 @@
+
+.avatar {
+    width: 500px;
+    height: 500px; 
+    background-image: url("/src/assets/perfil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0; 
+   
+}
+
+.App{
+    font-family: sans-serif;
+    border-radius: 15px;
+    width: 500px;
+    height: 900px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 26, 36);
+    margin: 0 auto;
+}
+
+.personal-info{
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.personal-info > h4{
+    color: rgb(165, 141, 73);
+}
+.personal-info > h1,h4,h6{
+    margin: 7px;
+}
+.btn {
+   margin: 15px;
+   border: none;
+   border-radius: 5px;
+   width: 100px;
+   height: 30px;
+}
+.btn:hover {
+    background-color: rgb(141, 136, 123);
+}
+
+.btn:nth-child(2){
+    background-color: rgb(72, 136, 219) ;
+}
+.btn:nth-child(2):hover{
+    background-color: rgb(10, 39, 77) ;
+}
+
+.wrap-content {
+    color: white;
+    padding: 5px 20px 40px 50px;
+
+}
+
+.wrap-content > p {
+   margin-top: 2px;
+   font-size: 13px;
+}
+
+.wrap-content > h3 {
+    margin-bottom: 1px;
+ }
+
+ .footer {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(11, 10, 24);
+ }
+
+ .footer-icons {
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+ }
+
+ .footer-icons:hover {
+    background-color: rgba(57, 56, 66, 0.918);
+ }
