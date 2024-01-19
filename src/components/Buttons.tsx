@@ -9,7 +9,7 @@ const Buttons = () => {
     <div className="wrap-btn">
       <button
         className="btn"
-        onClick={() => myPage("https://github.com/AngelesGit")}>
+        onClick={() => myPage("https://github.com/AngelesRocks")}>
         {" "}
         <AiOutlineGithub /> Github
       </button>
