@@ -7,7 +7,9 @@ This is a Business Card, built with [Scrimba](https://scrimba.com/) Frontend Dev
 - HTML
 - CSS
 - JavaScript
-- React
+- React.tsx
+- TypeScript
+- Vite
 
 ## Demo
 
@@ -15,4 +17,4 @@ Check out the live demo [HERE...](https://business-card-angeles.netlify.app/).
 
 ## Preview
 
-![Project Preview](/assets/score-board.gif)
+![Project Preview](/src/assets/business-card.gif)
